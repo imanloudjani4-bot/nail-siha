@@ -2,12 +2,13 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nail Siha</title>
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div id="setup-guide" class="card" style="display:none;">
+    <div id="setup-guide" class="card" style="display:block;">
         <h2>مرحباً بك في Nail Siha 💊</h2>
         <p>لضمان أن يرن التطبيق في موعده، يرجى القيام بالتالي:</p>
         <ol style="text-align: right;">
@@ -17,7 +18,7 @@
         <button onclick="requestPermissions()">تفعيل التنبيهات والمتابعة</button>
     </div>
 
-    <div id="main-app" class="card">
+    <div id="main-app" class="card" style="display:none;">
         <h1>Nail Siha 💊</h1>
         <input type="text" id="medName" placeholder="اسم الدواء">
         <input type="time" id="medTime">
