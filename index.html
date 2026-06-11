@@ -8,13 +8,9 @@
     <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <div id="setup-guide" class="card" style="display:block;">
+    <div id="setup-guide" class="card" style="display:none;">
         <h2>مرحباً بك في Nail Siha 💊</h2>
-        <p>لضمان أن يرن التطبيق في موعده، يرجى القيام بالتالي:</p>
-        <ol style="text-align: right;">
-            <li>اضغط على زر <b>"تفعيل التنبيهات"</b> بالأسفل.</li>
-            <li>اذهب لإعدادات البطارية في هاتفك واختر <b>"عدم تقييد" (Unrestricted)</b> لهذا التطبيق.</li>
-        </ol>
+        <p>يرجى تفعيل التنبيهات لبدء العمل:</p>
         <button onclick="requestPermissions()">تفعيل التنبيهات والمتابعة</button>
     </div>
 
@@ -25,6 +21,6 @@
         <button onclick="addMed()">إضافة الدواء</button>
         <div id="list"></div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js?v=3"></script>
 </body>
 </html>
