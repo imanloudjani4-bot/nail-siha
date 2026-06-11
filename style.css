@@ -1,0 +1,8 @@
+/* style.css */
+body { font-family: 'Segoe UI', sans-serif; text-align: center; background-color: #f0f4f8; padding: 20px; }
+.card { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: inline-block; width: 90%; max-width: 400px; }
+h1 { color: #1a5276; }
+input { font-size: 18px; padding: 12px; margin: 8px 0; width: 90%; border-radius: 8px; border: 1px solid #ddd; }
+button { font-size: 20px; padding: 15px; cursor: pointer; border-radius: 10px; border: none; background-color: #27ae60; color: white; width: 90%; }
+.med-item { background: #eaf2f8; padding: 15px; margin: 10px 0; border-radius: 10px; display: flex; justify-content: space-between; }
+.delete-btn { background: #e74c3c; color: white; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; }
