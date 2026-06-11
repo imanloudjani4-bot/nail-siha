@@ -1,5 +1,6 @@
-body { font-family: sans-serif; background-color: #f0f4f8; margin: 0; padding: 15px; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
-.card { background: white; padding: 20px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); width: 100%; max-width: 400px; text-align: center; }
-input, button { width: 100%; padding: 15px; margin: 10px 0; border-radius: 10px; border: 1px solid #ccc; box-sizing: border-box; }
+body { font-family: sans-serif; background-color: #f0f4f8; margin: 0; padding: 15px; display: flex; justify-content: center; min-height: 100vh; }
+.card { background: white; padding: 20px; border-radius: 20px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+input, button { width: 100%; padding: 15px; margin: 10px 0; border-radius: 12px; border: 1px solid #ddd; box-sizing: border-box; }
 button { background-color: #27ae60; color: white; border: none; font-weight: bold; cursor: pointer; }
-.med-item { background: #eaf2f8; padding: 10px; margin: 10px 0; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border-right: 5px solid #2980b9; }
+.med-item { background: #eaf2f8; padding: 12px; margin: 8px 0; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; border-right: 5px solid #2980b9; }
+.delete-btn { background: #e74c3c !important; width: auto !important; padding: 5px 10px !important; margin: 0 !important; }
